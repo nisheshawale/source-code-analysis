@@ -3,6 +3,7 @@
 
 # venv
 source-code-env
+source-code-analysis-env
 
 # pip installation
 get-pip.py

@@ -1,4 +1,4 @@
- CursorKind.TRANSLATION_UNIT files/foo.c 
+ CursorKind.TRANSLATION_UNIT files/inputs/foo.c 
      CursorKind.FUNCTION_DECL pow_related_errors_001 
          CursorKind.COMPOUND_STMT  
              CursorKind.DECL_STMT  

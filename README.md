@@ -50,6 +50,11 @@ dpkg-query -S libclang.so
 ```
 Suppose it output the path as your_libclang_directory_path/libclang.so, then you use the path up to the libclang directory in the following commands.
 
+### For depth first search of the AST of a given file
+```
+python3.10 print_ast.py --file files/inputs/foo.c --library_path your_libclang_directory_path
+```
+
 ### For task 1
 ```
 python3.10 name_parameters_return_value.py --file files/foo.c --library_path your_libclang_directory_path

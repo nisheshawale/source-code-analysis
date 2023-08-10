@@ -1,0 +1,4 @@
+clang      11.0
+llvmlite   0.40.1
+setuptools 68.0.0
+wheel      0.41.1

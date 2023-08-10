@@ -1,0 +1,1256 @@
+ CursorKind.TRANSLATION_UNIT files/foo.c 
+     CursorKind.FUNCTION_DECL pow_related_errors_001 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL num 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR num 
+                         CursorKind.DECL_REF_EXPR num 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_002 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL num 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR num 
+                         CursorKind.DECL_REF_EXPR num 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_003 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL arr 
+                     CursorKind.INIT_LIST_EXPR  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.UNEXPOSED_EXPR  
+                             CursorKind.BINARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                                 CursorKind.INTEGER_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL i 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.FOR_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.DECL_REF_EXPR i 
+                     CursorKind.INTEGER_LITERAL  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.UNEXPOSED_EXPR i 
+                         CursorKind.UNEXPOSED_EXPR i 
+                             CursorKind.DECL_REF_EXPR i 
+                     CursorKind.PAREN_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.CXX_UNARY_EXPR  
+                                 CursorKind.PAREN_EXPR  
+                                     CursorKind.DECL_REF_EXPR arr 
+                             CursorKind.CXX_UNARY_EXPR  
+                 CursorKind.UNARY_OPERATOR  
+                     CursorKind.DECL_REF_EXPR i 
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.DECL_REF_EXPR ans 
+                         CursorKind.CALL_EXPR pow 
+                             CursorKind.UNEXPOSED_EXPR pow 
+                                 CursorKind.DECL_REF_EXPR pow 
+                             CursorKind.UNEXPOSED_EXPR  
+                                 CursorKind.ARRAY_SUBSCRIPT_EXPR  
+                                     CursorKind.UNEXPOSED_EXPR arr 
+                                         CursorKind.DECL_REF_EXPR arr 
+                                     CursorKind.UNEXPOSED_EXPR i 
+                                         CursorKind.DECL_REF_EXPR i 
+                             CursorKind.UNEXPOSED_EXPR exponent 
+                                 CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_004 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL arr 
+                     CursorKind.INIT_LIST_EXPR  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.UNEXPOSED_EXPR  
+                             CursorKind.BINARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                                 CursorKind.INTEGER_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL arr1 
+                     CursorKind.UNEXPOSED_EXPR arr 
+                         CursorKind.DECL_REF_EXPR arr 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL arr2 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.DECL_REF_EXPR arr1 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL i 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.FOR_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.DECL_REF_EXPR i 
+                     CursorKind.INTEGER_LITERAL  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.UNEXPOSED_EXPR i 
+                         CursorKind.UNEXPOSED_EXPR i 
+                             CursorKind.DECL_REF_EXPR i 
+                     CursorKind.PAREN_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.CXX_UNARY_EXPR  
+                                 CursorKind.PAREN_EXPR  
+                                     CursorKind.DECL_REF_EXPR arr 
+                             CursorKind.CXX_UNARY_EXPR  
+                 CursorKind.UNARY_OPERATOR  
+                     CursorKind.DECL_REF_EXPR i 
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.DECL_STMT  
+                         CursorKind.VAR_DECL temp 
+                             CursorKind.UNEXPOSED_EXPR  
+                                 CursorKind.UNARY_OPERATOR  
+                                     CursorKind.PAREN_EXPR  
+                                         CursorKind.BINARY_OPERATOR  
+                                             CursorKind.UNEXPOSED_EXPR  
+                                                 CursorKind.UNARY_OPERATOR  
+                                                     CursorKind.UNEXPOSED_EXPR arr2 
+                                                         CursorKind.DECL_REF_EXPR arr2 
+                                             CursorKind.UNEXPOSED_EXPR i 
+                                                 CursorKind.DECL_REF_EXPR i 
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.DECL_REF_EXPR ans 
+                         CursorKind.CALL_EXPR pow 
+                             CursorKind.UNEXPOSED_EXPR pow 
+                                 CursorKind.DECL_REF_EXPR pow 
+                             CursorKind.UNEXPOSED_EXPR temp 
+                                 CursorKind.DECL_REF_EXPR temp 
+                             CursorKind.UNEXPOSED_EXPR exponent 
+                                 CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_005 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL arr 
+                     CursorKind.INIT_LIST_EXPR  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+                         CursorKind.UNEXPOSED_EXPR  
+                             CursorKind.BINARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                                 CursorKind.INTEGER_LITERAL  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL arr1 
+                     CursorKind.UNEXPOSED_EXPR arr 
+                         CursorKind.DECL_REF_EXPR arr 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL i 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.FOR_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.DECL_REF_EXPR i 
+                     CursorKind.INTEGER_LITERAL  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.UNEXPOSED_EXPR i 
+                         CursorKind.UNEXPOSED_EXPR i 
+                             CursorKind.DECL_REF_EXPR i 
+                     CursorKind.PAREN_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.CXX_UNARY_EXPR  
+                                 CursorKind.PAREN_EXPR  
+                                     CursorKind.DECL_REF_EXPR arr 
+                             CursorKind.CXX_UNARY_EXPR  
+                 CursorKind.UNARY_OPERATOR  
+                     CursorKind.DECL_REF_EXPR i 
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.DECL_STMT  
+                         CursorKind.VAR_DECL temp 
+                             CursorKind.UNEXPOSED_EXPR  
+                                 CursorKind.ARRAY_SUBSCRIPT_EXPR  
+                                     CursorKind.UNEXPOSED_EXPR arr1 
+                                         CursorKind.DECL_REF_EXPR arr1 
+                                     CursorKind.UNEXPOSED_EXPR i 
+                                         CursorKind.DECL_REF_EXPR i 
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.DECL_REF_EXPR ans 
+                         CursorKind.CALL_EXPR pow 
+                             CursorKind.UNEXPOSED_EXPR pow 
+                                 CursorKind.DECL_REF_EXPR pow 
+                             CursorKind.UNEXPOSED_EXPR temp 
+                                 CursorKind.DECL_REF_EXPR temp 
+                             CursorKind.UNEXPOSED_EXPR exponent 
+                                 CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_006_func_001 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.RETURN_STMT  
+                 CursorKind.UNEXPOSED_EXPR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.INTEGER_LITERAL  
+                         CursorKind.INTEGER_LITERAL  
+     CursorKind.FUNCTION_DECL pow_related_errors_006 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.CALL_EXPR pow_related_errors_006_func_001 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_006_func_001 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_006_func_001 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.STRUCT_DECL  
+         CursorKind.FIELD_DECL arr 
+             CursorKind.INTEGER_LITERAL  
+     CursorKind.TYPEDEF_DECL pow_related_errors_007_s 
+         CursorKind.STRUCT_DECL  
+             CursorKind.FIELD_DECL arr 
+                 CursorKind.INTEGER_LITERAL  
+     CursorKind.FUNCTION_DECL pow_related_errors_007 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans1 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL newarr 
+                     CursorKind.TYPE_REF pow_related_errors_007_s 
+                     CursorKind.CSTYLE_CAST_EXPR  
+                         CursorKind.TYPE_REF pow_related_errors_007_s 
+                         CursorKind.CALL_EXPR malloc 
+                             CursorKind.UNEXPOSED_EXPR malloc 
+                                 CursorKind.DECL_REF_EXPR malloc 
+                             CursorKind.CXX_UNARY_EXPR  
+                                 CursorKind.TYPE_REF pow_related_errors_007_s 
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ptr_newarr 
+                     CursorKind.TYPE_REF pow_related_errors_007_s 
+                     CursorKind.CSTYLE_CAST_EXPR  
+                         CursorKind.TYPE_REF pow_related_errors_007_s 
+                         CursorKind.CALL_EXPR malloc 
+                             CursorKind.UNEXPOSED_EXPR malloc 
+                                 CursorKind.DECL_REF_EXPR malloc 
+                             CursorKind.CXX_UNARY_EXPR  
+                                 CursorKind.TYPE_REF pow_related_errors_007_s 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.ARRAY_SUBSCRIPT_EXPR  
+                     CursorKind.UNEXPOSED_EXPR arr 
+                         CursorKind.MEMBER_REF_EXPR arr 
+                             CursorKind.UNEXPOSED_EXPR newarr 
+                                 CursorKind.DECL_REF_EXPR newarr 
+                     CursorKind.INTEGER_LITERAL  
+                 CursorKind.UNEXPOSED_EXPR  
+                     CursorKind.INTEGER_LITERAL  
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.ARRAY_SUBSCRIPT_EXPR  
+                     CursorKind.UNEXPOSED_EXPR arr 
+                         CursorKind.MEMBER_REF_EXPR arr 
+                             CursorKind.UNEXPOSED_EXPR ptr_newarr 
+                                 CursorKind.DECL_REF_EXPR ptr_newarr 
+                     CursorKind.INTEGER_LITERAL  
+                 CursorKind.UNEXPOSED_EXPR  
+                     CursorKind.INTEGER_LITERAL  
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.ARRAY_SUBSCRIPT_EXPR  
+                             CursorKind.UNEXPOSED_EXPR arr 
+                                 CursorKind.MEMBER_REF_EXPR arr 
+                                     CursorKind.UNEXPOSED_EXPR newarr 
+                                         CursorKind.DECL_REF_EXPR newarr 
+                             CursorKind.INTEGER_LITERAL  
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans1 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.ARRAY_SUBSCRIPT_EXPR  
+                             CursorKind.UNEXPOSED_EXPR arr 
+                                 CursorKind.MEMBER_REF_EXPR arr 
+                                     CursorKind.UNEXPOSED_EXPR ptr_newarr 
+                                         CursorKind.DECL_REF_EXPR ptr_newarr 
+                             CursorKind.INTEGER_LITERAL  
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+             CursorKind.CALL_EXPR free 
+                 CursorKind.UNEXPOSED_EXPR free 
+                     CursorKind.DECL_REF_EXPR free 
+                 CursorKind.UNEXPOSED_EXPR newarr 
+                     CursorKind.DECL_REF_EXPR newarr 
+             CursorKind.CALL_EXPR free 
+                 CursorKind.UNEXPOSED_EXPR free 
+                     CursorKind.DECL_REF_EXPR free 
+                 CursorKind.UNEXPOSED_EXPR ptr_newarr 
+                     CursorKind.DECL_REF_EXPR ptr_newarr 
+     CursorKind.FUNCTION_DECL pow_related_errors_008 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_009 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_010 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_011 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_012 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_013 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_014 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_015 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_016 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_017 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_018 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_019 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_020 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_021 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_022 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.UNARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_023 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_024 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNARY_OPERATOR  
+                         CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_025 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.FLOATING_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_026 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_027 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_028 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.UNARY_OPERATOR  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.FUNCTION_DECL pow_related_errors_029 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL base 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL exponent 
+                     CursorKind.UNEXPOSED_EXPR  
+                         CursorKind.BINARY_OPERATOR  
+                             CursorKind.UNARY_OPERATOR  
+                                 CursorKind.INTEGER_LITERAL  
+                             CursorKind.INTEGER_LITERAL  
+             CursorKind.DECL_STMT  
+                 CursorKind.VAR_DECL ans 
+             CursorKind.BINARY_OPERATOR  
+                 CursorKind.DECL_REF_EXPR ans 
+                 CursorKind.CALL_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR pow 
+                         CursorKind.DECL_REF_EXPR pow 
+                     CursorKind.UNEXPOSED_EXPR base 
+                         CursorKind.DECL_REF_EXPR base 
+                     CursorKind.UNEXPOSED_EXPR exponent 
+                         CursorKind.DECL_REF_EXPR exponent 
+     CursorKind.VAR_DECL vflag 
+     CursorKind.FUNCTION_DECL pow_related_errors_main 
+         CursorKind.COMPOUND_STMT  
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_001 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_001 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_001 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_002 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_002 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_002 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_003 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_003 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_003 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_004 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_004 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_004 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_005 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_005 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_005 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_006 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_006 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_006 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_007 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_007 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_007 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_008 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_008 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_008 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_009 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_009 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_009 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_010 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_010 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_010 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_011 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_011 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_011 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_012 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_012 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_012 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_013 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_013 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_013 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_014 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_014 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_014 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_015 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_015 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_015 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_016 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_016 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_016 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_017 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_017 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_017 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_018 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_018 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_018 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_019 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_019 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_019 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_020 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_020 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_020 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_021 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_021 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_021 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_022 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_022 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_022 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_023 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_023 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_023 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_024 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_024 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_024 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_025 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_025 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_025 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_026 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_026 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_026 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_027 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_027 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_027 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_028 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_028 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_028 
+             CursorKind.IF_STMT  
+                 CursorKind.BINARY_OPERATOR  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                     CursorKind.BINARY_OPERATOR  
+                         CursorKind.UNEXPOSED_EXPR vflag 
+                             CursorKind.DECL_REF_EXPR vflag 
+                         CursorKind.INTEGER_LITERAL  
+                 CursorKind.COMPOUND_STMT  
+                     CursorKind.CALL_EXPR pow_related_errors_029 
+                         CursorKind.UNEXPOSED_EXPR pow_related_errors_029 
+                             CursorKind.DECL_REF_EXPR pow_related_errors_029 
